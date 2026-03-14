@@ -19,8 +19,8 @@ int main()
     cout << setprecision(2) << fixed;
     if (firstroot > secondroot)
         cout << "roots " << firstroot << " " << secondroot << endl;
-    else 
+    else{
         cout << "roots " << secondroot << " " << firstroot << endl;
-
+    }
     return 0;
 }
